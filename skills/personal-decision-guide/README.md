@@ -51,3 +51,7 @@ personal/PERSONAL_CONTEXT.md
 - 这个选择的最大风险是什么？
 
 对于指南能覆盖的问题，本 skill 应先调用 `life-decision-guide`，而不是重复维护证据。
+
+## 持续成长
+
+本 Skill 使用仓库共享的 `skills/_shared/GROWTH_PROTOCOL.md`。真实使用后的经验不会直接改写规则，而是先进入本地 `personal/SKILL_GROWTH_LOG.md`，经重复案例/权威证据验证、回归测试后，再通过 PR 升级。
