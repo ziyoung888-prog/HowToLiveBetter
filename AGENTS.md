@@ -8,3 +8,8 @@
 - **做个人决策**（职业、学习、消费、迁移、长期规划等）：优先按 [skills/personal-decision-guide/SKILL.md](skills/personal-decision-guide/SKILL.md) 执行。需要《高性价比人生指南》的证据时，再调用 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md) 作为证据检索层。不要把个人敏感信息写进公开仓库。
 
 - **所有 Skill 的成长机制**：无论调用哪个 Skill，完成主任务后都按 [skills/_shared/GROWTH_PROTOCOL.md](skills/_shared/GROWTH_PROTOCOL.md) 执行经验捕获、分级、验证和升级。单次案例不得直接改写通用规则；正式升级通过分支 + PR，并做最小回归测试。上游 Fork 保留的 Skill 默认用 overlay，不直接改原文件。
+
+- **复杂系统理解**：当任务涉及架构、模块关系、能量/信息/控制链或局部问题的系统定位时，使用 [skills/system-modeling/SKILL.md](skills/system-modeling/SKILL.md)。
+- **反馈与控制分析**：当任务涉及测量→判断→动作→反馈、延迟、阈值、振荡、反复异常或闭环失效时，使用 [skills/feedback-loop-analysis/SKILL.md](skills/feedback-loop-analysis/SKILL.md)。
+- **任务闭环**：当任务需要把模糊要求变成可执行、可验收、可追踪的工作项时，使用 [skills/closed-loop-task-control/SKILL.md](skills/closed-loop-task-control/SKILL.md)。
+- **证据核验**：当结论依赖规格书、标准、供应商回复、测试报告、论文或 AI 输出时，使用 [skills/evidence-verification/SKILL.md](skills/evidence-verification/SKILL.md) 区分事实、推断、假设与未知。
