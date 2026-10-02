@@ -10,9 +10,10 @@
 
 ## 当前能力层
 
-### 决策
-- `life-decision-guide`
-- `personal-decision-guide`
+### HowToLiveBetter 知识与决策
+- `how-to-live-better-knowledge` — 全书知识检索层：章节、条目、原文、证据、主题导航
+- `life-decision-guide` — 基于全书的通用人生决策层
+- `personal-decision-guide` — 加入个人目标、约束和长期路径的决策层
 
 ### Skill 生成与知识蒸馏
 - `book-to-skill` — 官方 `virgiliojr94/book-to-skill` 固定 commit 快照，用于把书籍、技术文档和多来源材料转成结构化 Agent Skill
