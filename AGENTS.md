@@ -23,6 +23,8 @@
 - **反馈与控制分析**：使用 [skills/feedback-loop-analysis/SKILL.md](skills/feedback-loop-analysis/SKILL.md)。
 - **任务闭环**：使用 [skills/closed-loop-task-control/SKILL.md](skills/closed-loop-task-control/SKILL.md)。
 - **证据核验**：使用 [skills/evidence-verification/SKILL.md](skills/evidence-verification/SKILL.md)。
+- **测试方案设计**：当任务需要把验证目标转成工况、采集、步骤、判据和异常处理时，使用 [skills/test-plan-design/SKILL.md](skills/test-plan-design/SKILL.md)。
+- **状态机/时序分析**：当任务涉及预充、启动/停机、接触器动作、故障恢复、超时或状态转换时，使用 [skills/state-machine-analysis/SKILL.md](skills/state-machine-analysis/SKILL.md)。
 - **所有 Skill 的成长**：统一遵循 [skills/_shared/GROWTH_PROTOCOL.md](skills/_shared/GROWTH_PROTOCOL.md)。
 
 ## 隐私与仓库边界
