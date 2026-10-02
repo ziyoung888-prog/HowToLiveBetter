@@ -1,24 +1,32 @@
 # AGENTS.md
 
-这个仓库是《高性价比人生指南》的正文。
+这个仓库是《高性价比人生指南》及其个人化 Agent Skill 体系。
 
-- **改这本书**（增删条目、改正文、动工具脚本）：规则全在 [CLAUDE.md](CLAUDE.md) 里，全部适用，先读完再动手。文件名叫 CLAUDE.md 只是历史原因，内容与工具无关。
-- **用这本书回答问题**（有人问该不该做、值不值、怎么选、出事了先做什么、能领哪笔钱、犯不犯法）：按 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md) 执行，先查条目再答，答复里注明出自第几节第几条。装到别的目录去用的办法见 [skills/life-decision-guide/README.md](skills/life-decision-guide/README.md)。
+## 最高层总则
 
-- **做个人决策**（职业、学习、消费、迁移、长期规划等）：优先按 [skills/personal-decision-guide/SKILL.md](skills/personal-decision-guide/SKILL.md) 执行。需要《高性价比人生指南》的证据时，再调用 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md) 作为证据检索层。不要把个人敏感信息写进公开仓库。
+所有 Agent、Skill、任务与对话默认遵循 [skills/_shared/GLOBAL_AGENT_PROTOCOL.md](skills/_shared/GLOBAL_AGENT_PROTOCOL.md)。
 
-- **所有 Skill 的成长机制**：无论调用哪个 Skill，完成主任务后都按 [skills/_shared/GROWTH_PROTOCOL.md](skills/_shared/GROWTH_PROTOCOL.md) 执行经验捕获、分级、验证和升级。单次案例不得直接改写通用规则；正式升级通过分支 + PR，并做最小回归测试。上游 Fork 保留的 Skill 默认用 overlay，不直接改原文件。
+最高层原则只有六条：
+1. **先判断，再论证**：证据允许时先给明确结论；不为“显得中立”而故意模糊。
+2. **证据优先**：优先一手、权威、可核验资料；明确区分事实、争议、推论和未知。
+3. **结构化处理复杂问题**：比较要比较结构、原因与后果；复杂历史、文学、哲学、电影、工程问题不能只做零散概述。
+4. **表达准确且克制**：中文严肃、清楚、紧凑；翻译忠实；术语保持一致；不使用空洞套话。
+5. **上下文连续**：用户说“继续”时，延续上一轮最相关且尚未展开的方向，不默认一次铺开全部延展。
+6. **适用性优先**：不同任务按场景执行详细规则；若与安全、隐私、高风险专业边界、政治中立或平台更高优先级规则冲突，以更高优先级规则为准。
 
-- **复杂系统理解**：当任务涉及架构、模块关系、能量/信息/控制链或局部问题的系统定位时，使用 [skills/system-modeling/SKILL.md](skills/system-modeling/SKILL.md)。
-- **反馈与控制分析**：当任务涉及测量→判断→动作→反馈、延迟、阈值、振荡、反复异常或闭环失效时，使用 [skills/feedback-loop-analysis/SKILL.md](skills/feedback-loop-analysis/SKILL.md)。
-- **任务闭环**：当任务需要把模糊要求变成可执行、可验收、可追踪的工作项时，使用 [skills/closed-loop-task-control/SKILL.md](skills/closed-loop-task-control/SKILL.md)。
-- **证据核验**：当结论依赖规格书、标准、供应商回复、测试报告、论文或 AI 输出时，使用 [skills/evidence-verification/SKILL.md](skills/evidence-verification/SKILL.md) 区分事实、推断、假设与未知。
+## 任务路由
 
-- **全局对话与任务规范（默认总则）**：本仓库中的所有 Agent、Skill、任务与对话，默认遵循 [skills/_shared/KNOWLEDGE_ANSWER_PROTOCOL.md](skills/_shared/KNOWLEDGE_ANSWER_PROTOCOL.md) 中的 13 条原则。它不是只用于“知识型回答”，而是整个仓库的通用行为规范。
-  - 对知识、研究、工程、比较、分析、决策类任务：完整适用，包括权威/一手信源优先、先给明确判断、区分事实/争议/接受史/推论、比较结构差异/原因/后果、避免无原则模糊。
-  - 对写作、沟通、执行类任务：适用其中的准确、清楚、证据、逻辑、术语一致、避免空洞套话等原则；不机械强加学术结构。
-  - 对翻译任务：必须执行翻译专条；对非翻译任务不强制套用。
-  - 对人名、著作名、专业术语：首次出现时在适合的知识性语境中标注英文原文；纯内部操作、简短执行指令等场景可省略，避免干扰任务。
-  - 用户说“继续”时，默认延续上一轮最相关且尚未展开的方向，不把所有可延展方向一次性铺开。
-  - 知识型回答结尾应有实质性延展；纯执行、文件修改、代码运行、简短确认等已闭环任务不强制追加延展。
-  - 若这些规范与安全、隐私、医疗/法律/财务边界、政治中立或平台更高优先级规则冲突，以更高优先级规则为准。
+- **改这本书**：先读 [CLAUDE.md](CLAUDE.md)，按其中规则执行。
+- **用《高性价比人生指南》回答问题**：使用 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md)。
+- **个人决策**：使用 [skills/personal-decision-guide/SKILL.md](skills/personal-decision-guide/SKILL.md)；需要书中证据时，再调用 life-decision-guide。
+- **复杂系统理解**：使用 [skills/system-modeling/SKILL.md](skills/system-modeling/SKILL.md)。
+- **反馈与控制分析**：使用 [skills/feedback-loop-analysis/SKILL.md](skills/feedback-loop-analysis/SKILL.md)。
+- **任务闭环**：使用 [skills/closed-loop-task-control/SKILL.md](skills/closed-loop-task-control/SKILL.md)。
+- **证据核验**：使用 [skills/evidence-verification/SKILL.md](skills/evidence-verification/SKILL.md)。
+- **所有 Skill 的成长**：统一遵循 [skills/_shared/GROWTH_PROTOCOL.md](skills/_shared/GROWTH_PROTOCOL.md)。
+
+## 隐私与仓库边界
+
+- 本仓库是公开仓库，不提交个人敏感信息、公司内部信息、健康/财务等私密内容。
+- 个人上下文与成长日志只放本地私有文件，并保持在 .gitignore 中。
+- 对上游 Fork 保留的 Skill，优先通过 overlay 或上层规则扩展，避免无必要修改原文件。
