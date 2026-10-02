@@ -17,7 +17,8 @@
 ## 任务路由
 
 - **改这本书**：先读 [CLAUDE.md](CLAUDE.md)，按其中规则执行。
-- **用《高性价比人生指南》回答问题**：使用 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md)。
+- **查《高性价比人生指南》的章节、条目、原文与证据**：使用 [skills/how-to-live-better-knowledge/SKILL.md](skills/how-to-live-better-knowledge/SKILL.md)。
+- **用《高性价比人生指南》做“该不该/值不值/怎么选”的通用决策**：使用 [skills/life-decision-guide/SKILL.md](skills/life-decision-guide/SKILL.md)。
 - **个人决策**：使用 [skills/personal-decision-guide/SKILL.md](skills/personal-decision-guide/SKILL.md)；需要书中证据时，再调用 life-decision-guide。
 - **复杂系统理解**：使用 [skills/system-modeling/SKILL.md](skills/system-modeling/SKILL.md)。
 - **反馈与控制分析**：使用 [skills/feedback-loop-analysis/SKILL.md](skills/feedback-loop-analysis/SKILL.md)。
