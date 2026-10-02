@@ -13,3 +13,5 @@
 - **反馈与控制分析**：当任务涉及测量→判断→动作→反馈、延迟、阈值、振荡、反复异常或闭环失效时，使用 [skills/feedback-loop-analysis/SKILL.md](skills/feedback-loop-analysis/SKILL.md)。
 - **任务闭环**：当任务需要把模糊要求变成可执行、可验收、可追踪的工作项时，使用 [skills/closed-loop-task-control/SKILL.md](skills/closed-loop-task-control/SKILL.md)。
 - **证据核验**：当结论依赖规格书、标准、供应商回复、测试报告、论文或 AI 输出时，使用 [skills/evidence-verification/SKILL.md](skills/evidence-verification/SKILL.md) 区分事实、推断、假设与未知。
+
+- **知识型回答统一规范**：历史、文学、哲学、电影、科学、工程、比较、翻译等知识型任务统一遵循 [skills/_shared/KNOWLEDGE_ANSWER_PROTOCOL.md](skills/_shared/KNOWLEDGE_ANSWER_PROTOCOL.md)。优先权威与一手信源，先给明确判断，区分事实/争议/接受史/推论，比较问题要说明结构差异、历史原因和实际后果；“继续”优先延续上一轮最相关未展开方向。若与安全、隐私、医疗法律边界或政治中立规则冲突，以更高优先级规则为准。
