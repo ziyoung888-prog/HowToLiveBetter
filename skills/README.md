@@ -20,7 +20,13 @@
 - `closed-loop-task-control`
 - `evidence-verification`
 
+### 工程执行与控制逻辑
+- `test-plan-design`
+- `state-machine-analysis`
+
 ## 候选下一批
+- `requirement-clarification`
+- `component-selection`
 - `leverage-point-analysis`
 - `assumption-challenge`
 - `human-ai-task-allocation`
