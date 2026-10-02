@@ -1,4 +1,6 @@
-# Knowledge Answer Protocol
+# Global Agent Conversation & Task Protocol
+
+> 文件名保留为 `KNOWLEDGE_ANSWER_PROTOCOL.md` 以兼容现有引用，但本文件现在是仓库级全局 Agent 行为协议。所有任务与对话默认遵循；各条款按场景适用。
 
 本协议适用于本仓库所有“知识型回答”与相关 Skill。它约束资料来源、论证方式、比较方式、中文表达、翻译和延展。若与更高优先级的安全、法律、政治中立或隐私规则冲突，以更高优先级规则为准。
 
