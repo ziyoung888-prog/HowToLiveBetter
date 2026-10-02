@@ -14,6 +14,9 @@
 - `life-decision-guide`
 - `personal-decision-guide`
 
+### Skill 生成与知识蒸馏
+- `book-to-skill` — 官方 `virgiliojr94/book-to-skill` 固定 commit 快照，用于把书籍、技术文档和多来源材料转成结构化 Agent Skill
+
 ### 工程基础思维
 - `system-modeling`
 - `feedback-loop-analysis`
