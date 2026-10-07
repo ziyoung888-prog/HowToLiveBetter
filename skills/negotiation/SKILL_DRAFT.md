@@ -242,3 +242,43 @@ If the other side asks “what do you care about?”, answer:
 4. remaining gaps
 
 Do not respond with an undifferentiated checklist.
+
+
+## Boundary rules from SWD/XWD regression v2
+
+### Negotiation activation gate
+Before using negotiation tactics, determine:
+- Is the decision still open?
+- Is there genuine trade space?
+- Is this actually a technical-definition, ownership, or authority issue?
+
+If there is no legitimate trade space, do not manufacture one.
+
+### Minimum technical evidence / no-deal condition
+Before negotiating flexible terms, define the minimum evidence required to make the engineering decision.
+
+Flexible dimensions may include:
+- sequence
+- sample allocation
+- reuse of existing reports
+- timing
+- cost
+- who performs the test
+
+Non-negotiable dimensions may include:
+- required safety evidence
+- applicable operating/worst-case condition
+- pass/fail basis
+- critical failure-mode visibility
+
+If minimum evidence cannot be obtained, use BATNA rather than forcing agreement.
+
+### Win-win is optional
+Some interests genuinely conflict. The objective is a defensible decision, not artificial harmony.
+
+If the counterpart cannot or will not satisfy the minimum requirement, valid outcomes include:
+- independent test
+- alternate supplier
+- redesign / derating
+- reject component for the use case
+- escalate for a conscious risk decision
