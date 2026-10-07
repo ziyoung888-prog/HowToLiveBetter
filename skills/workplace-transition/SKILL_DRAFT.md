@@ -161,3 +161,42 @@ Progress updates should include:
 2. blocker / open item
 3. next action
 4. ETA or milestone impact
+
+
+## Boundary rules from SWD/XWD regression v2
+
+### Decision-finality gate
+Before framing a problem as something to negotiate, ask:
+- Has an authorized decision already been made?
+- Is the remaining ambiguity operational or substantive?
+- Is there a safety/compliance/technical-impossibility exception?
+
+If a legitimate management/process decision is final, default to execute and clarify implementation. Reopen only with evidence of a material exception.
+
+### Risk class before schedule
+Before discussing “赶节点”, classify the unresolved item:
+- Critical: safety, compliance, functional correctness, irreversible manufacturing/test risk
+- Major: meaningful performance/rework/schedule impact
+- Minor: reversible documentation/detail issue
+
+Urgency may change process speed, but does not erase critical risk.
+
+### Autonomy-escalation matrix
+Decide independently when the issue is:
+- in scope
+- reversible
+- low consequence
+- criteria are known
+- precedent exists
+
+Escalate when it involves:
+- safety/compliance/certification
+- destructive or irreversible action
+- external commitment
+- conflicting instructions
+- major cost/schedule impact
+- unclear acceptance criteria
+- cross-functional ownership ambiguity
+
+For medium-risk cases, bring a recommendation, not an empty question:
+“我建议A，依据是1/2/3，风险是X；因为涉及Y，想请你确认。”
