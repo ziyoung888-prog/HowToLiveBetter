@@ -169,3 +169,58 @@ Search for a process that protects the legitimate interests of all parties.
 - Do not assume silence means consent.
 - Do not infer malicious intent without evidence.
 - For safety, compliance, quality, or technical acceptance issues, documented requirements override conversational convenience.
+
+
+## Regression additions from SWD/XWD cases
+
+### Evidence-maturity wording
+Prefer:
+- “已确认”
+- “目前初步方案”
+- “待确认”
+- “我再和X核一下”
+- “评审时确认”
+
+Avoid weakening credibility with unnecessary self-devaluation such as:
+- “我不太懂”
+- “我就是随便想的”
+- “可能是吧”
+
+State uncertainty precisely, not emotionally.
+
+### No-response follow-up ladder
+When someone does not reply:
+1. Separate silence from motive.
+2. Check whether a real dependency/deadline exists.
+3. Send a concise follow-up with a concrete ask.
+4. If a milestone is at risk, state the impact and requested response time.
+5. If still blocked, switch channel or involve the responsible coordinator.
+6. Escalate factually, never as a complaint about attitude.
+
+### Technical information relay protocol
+When relaying a mentor’s / owner’s technical answer:
+- preserve the original scope
+- preserve qualifiers and uncertainty
+- do not add causal explanation that was not confirmed
+- attribute the source when useful
+- if decision-critical, ask the original owner to confirm
+- distinguish “张工确认的是…” from “我的理解是…”
+
+### Decision-ready message format
+For enterprise chat, prefer:
+1. context (one sentence)
+2. confirmed facts
+3. issue / dependency
+4. proposed action
+5. explicit ask / owner / timing
+
+Do not bury the ask in a long background paragraph.
+
+### Progress update format
+Use:
+- status
+- blocker
+- next action
+- ETA / downstream impact
+
+Treat “催进度” as dependency management unless evidence shows otherwise.
