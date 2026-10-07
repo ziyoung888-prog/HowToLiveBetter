@@ -197,3 +197,48 @@ Use market and role evidence rather than personal need as the primary criterion.
 - Do not accept arbitrary deadlines without checking whether they are real constraints.
 - Do not recommend bluffing where credibility or long-term reputation matters.
 - Relationship value matters, but it should not silently override substantive risk.
+
+
+## Regression additions from SWD/XWD cases
+
+### Do not negotiate before the engineering input exists
+A negotiation skill cannot repair an undefined technical requirement.
+
+Before supplier/test-scope negotiation, ensure the application side has defined:
+- operating condition
+- abnormal / worst-case condition
+- voltage/current/time or equivalent key parameters
+- required evidence
+- pass/fail intent
+- sample constraints if known
+
+Then negotiate scope, sequence, evidence reuse, cost, lead time, and ownership.
+
+### Supplier evidence gap workflow
+When asking a supplier for validation:
+1. list the decision-critical conditions
+2. ask what existing reports already cover
+3. map evidence gaps
+4. request only missing tests where possible
+5. agree on conditions, samples, measurements, and failure criteria
+6. record unresolved items and owners
+
+This avoids asking for “all tests” without prioritization.
+
+### Responsibility interface model
+For technical negotiation distinguish:
+- project/engineering: application inputs and risk scenarios
+- supplier: product limits, historical reports, recommended constraints
+- test function: executable method, instrumentation, acquisition
+- decision owner: final acceptance / release decision
+
+Many apparent negotiation conflicts are actually ownership-interface ambiguity.
+
+### Priority response pattern
+If the other side asks “what do you care about?”, answer:
+1. top decision needs
+2. why they matter
+3. existing evidence you want to reuse
+4. remaining gaps
+
+Do not respond with an undifferentiated checklist.
