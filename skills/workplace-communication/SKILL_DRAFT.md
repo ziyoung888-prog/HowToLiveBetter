@@ -224,3 +224,33 @@ Use:
 - ETA / downstream impact
 
 Treat “催进度” as dependency management unless evidence shows otherwise.
+
+
+## Boundary rules from SWD/XWD regression v2
+
+### Respect does not mean accepting undefined responsibility
+If another function pushes work back:
+1. define the output
+2. define the missing input
+3. identify the process/document owner
+4. state the gap neutrally
+5. propose closure
+6. escalate ownership ambiguity if needed
+
+Do not use “maintain safety” to absorb work with unclear ownership.
+
+### Clarity over comfort for technical risk
+For safety, compliance, quality, or critical technical uncertainty:
+- state the risk explicitly
+- do not dilute it with vague language
+- separate respect for the person from firmness on the requirement
+
+### Progress pressure response
+When a milestone is urgent:
+- state what is complete
+- state what remains unknown
+- classify whether the unknown is critical/major/minor
+- offer valid release options
+- ask the decision owner to choose if a tradeoff remains
+
+Never imply “final” when the work is actually provisional.
