@@ -118,3 +118,46 @@ These become more relevant after taking formal leadership responsibility.
 - Do not confuse visibility with value.
 - Do not treat all manager preferences as correct; distinguish preference from technical/safety requirements.
 - For technical, legal, financial, or compliance decisions, use authoritative sources separately; this skill only structures transition behavior.
+
+
+## Regression additions from SWD/XWD cases
+
+### Engineering completeness gate
+Before treating a problem as a communication problem, check whether the underlying engineering deliverable is executable.
+
+For test requests, drawings, BOM changes, supplier questions, and design reviews, verify:
+- design/test input is defined
+- conditions and boundaries are explicit
+- acceptance criteria exist
+- unknowns are marked TBD
+- each TBD has an owner
+
+If the content is incomplete, fix the engineering input before polishing wording.
+
+### Evidence maturity labels
+Use explicit maturity states:
+- Confirmed
+- Preliminary proposal
+- TBD
+- Awaiting owner confirmation
+
+Do not present preliminary thinking as an approved design decision.
+
+### Four-owner model
+For cross-functional work, identify:
+- Input owner — supplies application/design conditions
+- Evidence owner — supplies data/reports/technical proof
+- Execution owner — performs the task/test/change
+- Decision owner — accepts the result or chooses the path
+
+One person may hold multiple roles, but do not leave them implicit.
+
+### Review-to-system rule
+After a review, convert recurring comments into a checklist or template. Correcting only the current document is insufficient learning.
+
+### Dependency-oriented status
+Progress updates should include:
+1. current status
+2. blocker / open item
+3. next action
+4. ETA or milestone impact
