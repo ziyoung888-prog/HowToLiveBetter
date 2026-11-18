@@ -3,7 +3,7 @@ name: personal-ai-os
 description: Coordinate authorized agents through shared workflows, tasks, evidence and document masters.
 ---
 # Personal AI OS
-Status: architecture contract, not a deployed service.
+Status: architecture contract V1.1, not a deployed service.
 
 Eight modules: Memory, Knowledge, Skills, Workflow, Tasks, Documents, Automation, Governance. One authoritative gateway and one logical source of truth per domain; no forced replication.
 
@@ -20,3 +20,9 @@ MCP remote transport and HTTP adapter where necessary; per-agent scoped credenti
 
 ## Budget and rollout
 AI API target USD 5/month for the currently planned system; infrastructure costs separate. Reserve estimated cost before calls, reconcile actual usage, warn at 80%, stop paid processing if limit cannot be guaranteed; deterministic extraction first. Keep credentials and real data out of public code. First validate synthetic ingestion and retrieval; then workflow handoff across two clients; only then allow approved real data. Do not label proposals or untested integrations as operational.
+
+## V1.1 delivery baseline (supersedes fixed agent roles and 12-week plan)
+Agent-agnostic: no vendor-specific permanent assignment. Any authorized capable agent may claim work, inspect current state, implement, test, commit and hand off. Project continuity must not depend on chat history. Prefer existing systems before custom development.
+Day 1: use existing skills and document workflows immediately, establish private engineering repository, project state, backlog and handover. Days 2–7: shared context, tasks, document masters, incremental ingestion, retrieval/MCP and one real workflow; release each tested slice immediately. Day 30: stabilize through actual usage. Thereafter evolve by evidence and demand. Dates are targets, not guarantees.
+MVP gates: two independent authorized clients share rules, skills, task state and knowledge; unique document master; automatic synthetic upload processing with source citation and dedup; one actual workflow through review; independent development takeover without chat history; audit, isolation and effective budget controls. Record failures and test evidence. Never mark incomplete gates passed.
+Two tracks: deliver user work first using approved available tools; capture friction as backlog, prioritize measurable time savings, test improvements and publish versioned releases. Keep source code, state, decision records, deployment and recovery instructions in a private project repository; no secrets in Git. Daily lightweight health/backup checks, weekly feedback review, monthly costs/access review, quarterly recovery drill. No daily full AI scans.
