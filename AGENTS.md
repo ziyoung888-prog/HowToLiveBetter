@@ -29,6 +29,8 @@
 - **书籍/长文档蒸馏为 Skill**：使用 [skills/book-to-skill/SKILL.md](skills/book-to-skill/SKILL.md)。该 Skill 来自官方 upstream `virgiliojr94/book-to-skill` 的固定 commit 快照；只从官方仓库更新。生成的新 Skill 在进入 `main` 前，必须接受安全扫描、人工复核、回归测试，并遵循本仓库的 GLOBAL_AGENT_PROTOCOL 与 GROWTH_PROTOCOL。
 - **所有 Skill 的成长**：统一遵循 [skills/_shared/GROWTH_PROTOCOL.md](skills/_shared/GROWTH_PROTOCOL.md)。
 
+- **办公文档创建、修订、版本管理与导出**：使用 [skills/document-lifecycle-management/SKILL.md](skills/document-lifecycle-management/SKILL.md)。
+
 ## 隐私与仓库边界
 
 - 本仓库是公开仓库，不提交个人敏感信息、公司内部信息、健康/财务等私密内容。
