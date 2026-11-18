@@ -31,6 +31,10 @@
 
 - **办公文档创建、修订、版本管理与导出**：使用 [skills/document-lifecycle-management/SKILL.md](skills/document-lifecycle-management/SKILL.md)。
 
+- **授权资料增量入库**：使用 [document-ingestion](skills/document-ingestion/SKILL.md)。
+- **私有知识索引检索与原文核验**：使用 [knowledge-retrieval](skills/knowledge-retrieval/SKILL.md)。
+- **Drive 事件自动化**：遵循 [Drive Event Hub](skills/drive-event-hub/README.md)，未部署不得声称已运行。
+
 ## 隐私与仓库边界
 
 - 本仓库是公开仓库，不提交个人敏感信息、公司内部信息、健康/财务等私密内容。
