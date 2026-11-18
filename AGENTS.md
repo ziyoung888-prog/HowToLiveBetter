@@ -35,6 +35,8 @@
 - **私有知识索引检索与原文核验**：使用 [knowledge-retrieval](skills/knowledge-retrieval/SKILL.md)。
 - **Drive 事件自动化**：遵循 [Drive Event Hub](skills/drive-event-hub/README.md)，未部署不得声称已运行。
 
+- **Personal AI OS 建设、接管与持续迭代**：先读 [Personal AI OS V1.1](skills/personal-ai-os/SKILL.md)，按 Agent 无关、MVP 优先、持续交付执行；不得依赖单一对话。
+
 ## 隐私与仓库边界
 
 - 本仓库是公开仓库，不提交个人敏感信息、公司内部信息、健康/财务等私密内容。
